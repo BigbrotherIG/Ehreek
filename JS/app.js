@@ -35,15 +35,6 @@ logoMenu.addEventListener("click", openMenu)
       logoExit.classList.remove("active")
    }))
 
-   // let arrowLinks = arrowDown.length; arrowUp.length; faqDropMenu.length;
-   // let i = 0;
-   // while(i < arrowLinks){
-   //    console.log("click")
-   //    arrowDown[i].classList.toggle("active");
-   //    arrowUp[i].classList.toggle("active");
-   //    i++;
-   // }
-   
    arrowDown.forEach(changeDown => changeDown.addEventListener("click", (links) => {
       console.log("click me")
       var faqLinks = faqDropMenu.length
