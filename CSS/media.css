@@ -56,7 +56,7 @@
         object-position: center;
     }
 
-    /*  */
+    /* Customer Section */
     .customer-review {
         /* margin-top: 20px; */
         height: auto;
@@ -66,7 +66,6 @@
         flex-direction: column;
         gap: 30px;
     }  
-    
     
      /* Team Section */
      .team {
@@ -84,6 +83,5 @@
         object-fit: cover;
         aspect-ratio: 16/9;
     }
-
 }
 
