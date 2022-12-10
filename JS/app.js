@@ -37,7 +37,6 @@ logoMenu.addEventListener("click", openMenu)
          faqDropMenu[i].classList.toggle("active");
          i++;   
       }
-      
    })) */
 
   /* arrowUp.forEach(changeUp => changeUp.addEventListener("click", () => {
@@ -46,9 +45,6 @@ logoMenu.addEventListener("click", openMenu)
       var i = 0;
       let arrow1 = document.getElementById('arrowbtn-1')
       while(i < faqLinks){
-         if( i == arrow1){
-            
-         }
          arrowUp[i].classList.toggle("active")
          arrowDown[i].classList.toggle("active")
          faqDropMenu[i].classList.toggle("active");
