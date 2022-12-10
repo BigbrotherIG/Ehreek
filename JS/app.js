@@ -8,14 +8,6 @@ let faqDropMenu = document.querySelectorAll(".faq-dropdown")
 let arrowUp = document.querySelectorAll(".arrow-up")
 let arrowDown = document.querySelectorAll(".arrow-down")
 
-// arrowDown.forEach(() => {
-//    if(arrowDown.length == []) {}
-// })
-
-// arrowUp.forEach(() => {
-//    if(arrowUp.length == []) {}
-// })
-
 logoMenu.addEventListener("click", openMenu)
    
    function openMenu() {
@@ -35,7 +27,7 @@ logoMenu.addEventListener("click", openMenu)
       logoExit.classList.remove("active")
    }))
 
-   arrowDown.forEach(changeDown => changeDown.addEventListener("click", (links) => {
+   /* arrowDown.forEach(changeDown => changeDown.addEventListener("click", (links) => {
       console.log("click me")
       var faqLinks = faqDropMenu.length
       var i = 0;
@@ -43,11 +35,12 @@ logoMenu.addEventListener("click", openMenu)
          arrowUp[i].classList.toggle("active")
          arrowDown[i].classList.toggle("active")
          faqDropMenu[i].classList.toggle("active");
-         i++;
+         i++;   
       }
-   }))
+      
+   })) */
 
-   arrowUp.forEach(changeUp => changeUp.addEventListener("click", () => {
+  /* arrowUp.forEach(changeUp => changeUp.addEventListener("click", () => {
       console.log("click you")
       var faqLinks = faqDropMenu.length
       var i = 0;
@@ -61,4 +54,26 @@ logoMenu.addEventListener("click", openMenu)
          faqDropMenu[i].classList.toggle("active");
          i++;
       }
-   }))
+   })) */
+
+   // FAQ's buttons for popping the content hidden
+   document.getElementById("arrowbtn-1").addEventListener("click", (changeDown) => {
+      arrowDown[0].classList.toggle("active")
+      arrowUp[0].classList.toggle("active")
+      document.getElementById("faq-1").classList.toggle("active")
+   })
+   document.getElementById("arrowbtn-2").addEventListener("click", (changeDown) => {
+      arrowDown[1].classList.toggle("active")
+      arrowUp[1].classList.toggle("active")
+      document.getElementById("faq-2").classList.toggle("active")
+   })
+   document.getElementById("arrowbtn-3").addEventListener("click", (changeDown) => {
+      arrowDown[2].classList.toggle("active")
+      arrowUp[2].classList.toggle("active")
+      document.getElementById("faq-3").classList.toggle("active")
+   })
+   document.getElementById("arrowbtn-4").addEventListener("click", (changeDown) => {
+      arrowDown[3].classList.toggle("active")
+      arrowUp[3].classList.toggle("active")
+      document.getElementById("faq-4").classList.toggle("active")
+   })
