@@ -1,5 +1,4 @@
 
-//    const menuLogo = document.querySelector("")
 const navLinks = document.querySelector(".nav-links")
 const logoMenu = document.querySelector(".logomenu")
 const logoExit = document.querySelector(".logoexit")
@@ -53,22 +52,22 @@ logoMenu.addEventListener("click", openMenu)
    })) */
 
    // FAQ's buttons for popping the content hidden
-   document.getElementById("arrowbtn-1").addEventListener("click", (changeDown) => {
+   document.getElementById("arrowbtn-1").addEventListener("click", () => {
       arrowDown[0].classList.toggle("active")
       arrowUp[0].classList.toggle("active")
       document.getElementById("faq-1").classList.toggle("active")
    })
-   document.getElementById("arrowbtn-2").addEventListener("click", (changeDown) => {
+   document.getElementById("arrowbtn-2").addEventListener("click", () => {
       arrowDown[1].classList.toggle("active")
       arrowUp[1].classList.toggle("active")
       document.getElementById("faq-2").classList.toggle("active")
    })
-   document.getElementById("arrowbtn-3").addEventListener("click", (changeDown) => {
+   document.getElementById("arrowbtn-3").addEventListener("click", () => {
       arrowDown[2].classList.toggle("active")
       arrowUp[2].classList.toggle("active")
       document.getElementById("faq-3").classList.toggle("active")
    })
-   document.getElementById("arrowbtn-4").addEventListener("click", (changeDown) => {
+   document.getElementById("arrowbtn-4").addEventListener("click", () => {
       arrowDown[3].classList.toggle("active")
       arrowUp[3].classList.toggle("active")
       document.getElementById("faq-4").classList.toggle("active")
